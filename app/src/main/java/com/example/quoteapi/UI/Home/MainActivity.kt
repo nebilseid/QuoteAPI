@@ -38,11 +38,13 @@ class MainActivity : AppCompatActivity(),QuoteListContract.View {
         rvQuoteList.adapter = quoteListAdapter
         homePresenter.getQuoteList()
 
+
         btnFindQuote.setOnClickListener {
             startActivity(Intent(this,SymbolQuoteActivity::class.java))
         }
-
     }
+
+
 
     override fun showResults(results: List<Response>) {
         quoteListAdapter.setData(results)

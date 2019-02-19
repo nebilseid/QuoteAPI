@@ -13,24 +13,24 @@
     <EditText
             android:id="@+id/etSymbol"
             android:hint="Symbol"
+            android:textStyle="bold"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteX="0dp"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="28dp"/>
+            android:layout_height="wrap_content" />
 
     <Button
 
             android:text="Find Quote"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btnFindSymbolQuote" android:layout_marginTop="76dp"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="160dp" android:layout_marginRight="160dp"/>
+            android:id="@+id/btnFindSymbolQuote"
+            android:textStyle="bold"/>
 
     <TextView
             android:id="@+id/tvSymbol"
             android:hint="Symbol"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
     <TextView
             android:id="@+id/tvCompanyName"
             android:hint="Company Name"
@@ -40,5 +40,6 @@
             android:id="@+id/tvLatestPrice"
             android:hint="Latest Price"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
 </LinearLayout>
