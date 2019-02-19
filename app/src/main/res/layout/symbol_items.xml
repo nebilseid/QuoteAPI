@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+
+    <TextView
+            android:text="Latest Price"
+            android:layout_width="138dp"
+            android:layout_height="33dp"
+            android:id="@+id/tvLatestPrice"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvSymbol"
+            android:layout_marginTop="224dp" app:layout_constraintHorizontal_bias="0.0"/>
+    <TextView
+            android:text="Symbol"
+            android:layout_width="135dp"
+            android:layout_height="34dp"
+            android:id="@+id/tvSymbol"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="224dp" android:layout_marginStart="52dp"/>
+    <TextView
+            android:text="CompanyName"
+            android:layout_width="221dp"
+            android:layout_height="37dp"
+            android:id="@+id/tvCompanyName" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="196dp" android:layout_marginEnd="144dp"/>
+</android.support.constraint.ConstraintLayout>
